@@ -1,0 +1,27 @@
+{
+  "name": "game-mission-command-pattern",
+  "version": "1.0.0",
+  "description": "Command Pattern implementace pro spouštění herních misí",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node game.ts",
+    "menu": "ts-node interactive.ts",
+    "demo": "ts-node main.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn game.ts"
+  },
+  "keywords": [
+    "command-pattern",
+    "design-patterns",
+    "typescript",
+    "game-development"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.0"
+  }
+}
